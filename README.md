@@ -40,4 +40,4 @@ Create a new file named "tsconfig.json" in the root folder and add the following
 "strict": true,
 },
 "include": ["src/**/*"]
-}```
+}
