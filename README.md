@@ -12,7 +12,9 @@ For TypeScript Environment:
 
 Create a new folder and open it in VS Code.
 
-Run "npm init -y" to create the package.json and package-lock.json files. Then add the following lines to the package.json file:
+Run ```tsc init``` to create the tsconfig.json and package-lock.json files
+
+Run ```npm init -y``` to create the package.json and package-lock.json files. Then add the following lines to the package.json file:
 
 ```"type": "module",```
 after this line
@@ -31,13 +33,15 @@ If there is an error of "cannot find corresponding type declaration," type ```np
 Create a new file named "tsconfig.json" in the root folder and add the following lines to it:
 
 ```{
-"compilerOptions": {
-"module": "commonjs",
-"moduleResolution": "node",
-"target": "es2016",
-"sourceMap": true,
-"outDir": "dist",
-"strict": true,
-},
-"include": ["src/**/*"]
+{
+  "compilerOptions": {
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+  },
+  "include": ["src/**/*"]
 }
+
