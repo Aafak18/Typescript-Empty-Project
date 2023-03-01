@@ -14,13 +14,13 @@ Create a new folder and open it in VS Code.
 
 Run "npm init -y" to create the package.json and package-lock.json files. Then add the following lines to the package.json file:
 
-'''"type": "module",'''
+```"type": "module",```
 after this line
-'''"main": "index.js",'''
+```"main": "index.js",```
 
 In the package.json file, add the following line to the scripts section:
 
-'''"build": "tsc"'''
+```"build": "tsc"```
 
 Install TypeScript and its dependencies by running "npm install typescript --save-dev".
 
@@ -30,7 +30,7 @@ If there is an error of "cannot find corresponding type declaration," type "npm 
 
 Create a new file named "tsconfig.json" in the root folder and add the following lines to it:
 
-'''{
+```{
 "compilerOptions": {
 "module": "commonjs",
 "moduleResolution": "node",
@@ -40,7 +40,7 @@ Create a new file named "tsconfig.json" in the root folder and add the following
 "strict": true,
 },
 "include": ["src/**/*"]
-}'''
+}```
 
 
-git remote add origin https://github.com/Aafak18/empty_typescript_project.git
+
