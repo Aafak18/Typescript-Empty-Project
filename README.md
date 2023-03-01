@@ -22,11 +22,11 @@ In the package.json file, add the following line to the scripts section:
 
 ```"build": "tsc"```
 
-Install TypeScript and its dependencies by running "npm install typescript --save-dev".
+Install TypeScript and its dependencies by running ```npm install typescript --save-dev```.
 
 Create a new folder named "src" and add a new file named "index.ts" to it.
 
-If there is an error of "cannot find corresponding type declaration," type "npm i -D @types/nodes" in the terminal.
+If there is an error of "cannot find corresponding type declaration," type ```npm i -D @types/nodes``` in the terminal.
 
 Create a new file named "tsconfig.json" in the root folder and add the following lines to it:
 
@@ -41,6 +41,3 @@ Create a new file named "tsconfig.json" in the root folder and add the following
 },
 "include": ["src/**/*"]
 }```
-
-
-
